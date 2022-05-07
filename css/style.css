@@ -1,0 +1,24 @@
+body {
+    position: relative;
+    background: black;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://www.nicepng.com/png/full/14-149526_lottery-transparent-background-money-png.png');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
